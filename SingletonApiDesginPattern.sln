@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonApiDesginPattern", "SingletonApiDesginPattern\SingletonApiDesginPattern.csproj", "{CBD8D6D5-5846-4BAE-B897-479FFF09D3FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBD8D6D5-5846-4BAE-B897-479FFF09D3FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBD8D6D5-5846-4BAE-B897-479FFF09D3FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBD8D6D5-5846-4BAE-B897-479FFF09D3FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBD8D6D5-5846-4BAE-B897-479FFF09D3FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A674E14A-2E5A-470E-8499-10848AF56F44}
+	EndGlobalSection
+EndGlobal
