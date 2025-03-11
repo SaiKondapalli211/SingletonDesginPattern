@@ -2,6 +2,7 @@
 
 Thread Safety ensures that multiple threads can access the singleton instance without conflicts. The best approach in .Net Core is using double-check locking or Lazy<T>. 
 Code snippet : 
+
 Public ClassName { 
 private static ClassName _instance;
 private static readonly object _lock = new object();
