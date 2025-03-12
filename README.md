@@ -21,6 +21,19 @@ Scoped services are created per request.
 
 Transient services are created every time they are injected.
 
+**Can Singleton cause any issues in a multi-threaded .NET Core application? How do you handle them?**
+
+Yes, Singleton can cause issues such as:
+
+Race Conditions: Multiple threads might attempt to initialize the instance at the same time.
+
+Memory Leaks: If the Singleton holds references to objects that should be garbage collected.
+
+Scalability Issues: Singleton objects shared across requests may cause bottlenecks.
+
+Solution:
+
+We use Lazy<T> for thread-safe lazy initialization
 
 **Can Singleton cause memory leaks?**
 
