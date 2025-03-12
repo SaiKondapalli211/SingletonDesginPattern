@@ -21,6 +21,15 @@ Scoped services are created per request.
 
 Transient services are created every time they are injected.
 
+H**ow have you used the Singleton pattern in your real-time project?**
+
+Example Answer (Health Insurance Application)
+
+In our real-time health insurance application, we used the Singleton pattern for caching frequently accessed data, such as policy details, premium rates, and claim statuses.
+
+We implemented a Singleton cache service to store data in-memory, reducing frequent database hits and improving response time.
+
+
 **Can Singleton cause any issues in a multi-threaded .NET Core application? How do you handle them?**
 
 Yes, Singleton can cause issues such as:
