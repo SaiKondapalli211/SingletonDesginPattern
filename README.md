@@ -15,6 +15,12 @@ return _instance;
 
 }
 
+**Can Singleton cause memory leaks?**
+
+Yes! If a Singleton holds references to other objects, garbage collection (GC) cannot clean them up, leading to memory leaks.
+
+Solution: Implement IDisposable to manually clean up resources:
+
 ![Singletonvs Static](https://github.com/user-attachments/assets/ab4f57a6-1b56-4df8-b6be-d973ac9027df)
 
 
