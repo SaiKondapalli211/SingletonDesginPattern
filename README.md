@@ -15,6 +15,13 @@ return _instance;
 
 }
 
+Singleton objects live for the entire application lifetime.
+
+Scoped services are created per request.
+
+Transient services are created every time they are injected.
+
+
 **Can Singleton cause memory leaks?**
 
 Yes! If a Singleton holds references to other objects, garbage collection (GC) cannot clean them up, leading to memory leaks.
